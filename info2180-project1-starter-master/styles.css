@@ -1,4 +1,3 @@
-/* Add your CSS to this file */
 body {
     margin: 0;
     font-size: 18px;
@@ -14,7 +13,6 @@ body {
 nav {
     float: right;
     font-size: 18px;
-    /* display: inline-block; */
 }
 
 li {
@@ -99,7 +97,6 @@ header {
     display: grid;
     grid-template-columns: 500px;    
     color: white;
-    /* align-items: center; */
 }
 
 .testing {
@@ -131,7 +128,6 @@ article img {
     margin-right: 3%;
     border-radius: 50%;
     padding: 10px;
-    /* padding-bottom: 10px; */
 }
 
 .newsletter {
@@ -143,12 +139,9 @@ article img {
 }
 
 form {
-    /* text-align: center;
-    display: inline-block; */
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    /* text-align-last: justify; */
 }
 
 form button {
@@ -159,9 +152,6 @@ form button {
     padding: 15px 32px;
     border-radius: 5px;
     margin-left: 10px;
-    /* display: flex;
-    align-items: center; */
-    /* float: right; */
 }
 
 .stories {
@@ -186,16 +176,11 @@ form button {
 }
 
 .form-group input{
-    /* background-color: #5A67D8;
-    color: white; */
     border: none;
     font-size: 16px;
     padding: 15px 32px;
     border-radius: 5px;
     margin-left: 250px;
-    /* display: flex;
-    align-items: center; */
-    /* float: left; */
 }
 
 footer {
@@ -203,4 +188,9 @@ footer {
     color: white;
     padding: 10px;
     
+}
+
+.message {
+    color: black;
+    padding-top: 3%;
 }
